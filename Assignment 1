@@ -1,9 +1,35 @@
 #Create two different examples for each collective datatypes in python
 
-#Lists
+#String
 
-#Dictionary
+str1="My name is Sappo"
+str2="I work in a chocolate factory"
+print(str1)
+print(str2)
+
+#List
+
+list1=[1,2,3,4,5,6,7,8]
+list2=["grape", "peach", "orange", "apple", "banana"]
+print(list1)
+print(list2)
 
 #Tuples
 
-#x
+tup1=(1,2,3,"a","b","c")
+tup2=((1,2,3), ["abc","def","ghi"], "alpha", "beta", "gamma")
+print(tup1)
+print(tup2)
+
+#Set
+
+set1={"a", "e", "i", "o", "u"}
+set2={"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}
+print(set1)
+print(set2)
+
+#Dictionary
+dict1={"Fruit":"Apple", "Place":"Austrailia", "Thing":"Axe"}
+dict2={"Total Marks":100, "Class Average":71, "Highest Marks":97}
+print(dict1)
+print(dict2)
